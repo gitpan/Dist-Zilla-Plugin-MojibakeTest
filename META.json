@@ -1,0 +1,52 @@
+{
+   "abstract" : "Release tests making sure no char encoding problems is in the code",
+   "author" : [
+      "Alexei Znamensky <russoz@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-MojibakeTest",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dist::Zilla::Plugin::InlineFiles" : 0,
+            "Moose" : "0.99",
+            "Test::Mojibake" : 0,
+            "namespace::autoclean" : "0.09"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "English" : 0,
+            "File::Find" : 0,
+            "File::Temp" : 0,
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/russoz/Dist-Zilla-Plugin-MojibakeTest/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/russoz/Dist-Zilla-Plugin-MojibakeTest.git",
+         "web" : "http://github.com/russoz/Dist-Zilla-Plugin-MojibakeTest"
+      }
+   },
+   "version" : "0.001"
+}
+
